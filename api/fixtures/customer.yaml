@@ -1,0 +1,10 @@
+App\Entity\Customer:
+   customer_1:
+      email: "customer1@fixture.com"
+      password: "test"
+   customer_2:
+      email: "customer2@fixture.com"
+      password: "test"
+   customer_{3..10}:
+      email: <email()>
+      password: <password()>

@@ -1,0 +1,7 @@
+App\Entity\Dealer:
+   dealer_1:
+      email: "dealer1@fixture.com"
+      password: "test"
+   dealer_2:
+      email: "dealer2@fixture.com"
+      password: "test"
