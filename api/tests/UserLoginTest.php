@@ -5,7 +5,7 @@ use ApiPlatform\Core\Bridge\Symfony\Bundle\Test\ApiTestCase;
 use App\Entity\User;
 use Hautelook\AliceBundle\PhpUnit\RefreshDatabaseTrait;
 
-class BooksTest extends ApiTestCase
+class UserLoginTest extends ApiTestCase
 {
     use RefreshDatabaseTrait;
     
@@ -14,7 +14,7 @@ class BooksTest extends ApiTestCase
      */
     public function Login(): void
     {
-        
+        $response = static::createClient()->request('POST', '/dealers');
         $this->assertTrue(true);
     }
 }

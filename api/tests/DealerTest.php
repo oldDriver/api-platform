@@ -5,7 +5,7 @@ use ApiPlatform\Core\Bridge\Symfony\Bundle\Test\ApiTestCase;
 use App\Entity\Dealer;
 use Hautelook\AliceBundle\PhpUnit\RefreshDatabaseTrait;
 
-class BooksTest extends ApiTestCase
+class DealerTest extends ApiTestCase
 {
     use RefreshDatabaseTrait;
     
